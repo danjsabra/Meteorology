@@ -1,5 +1,5 @@
 # Meteorology
-<<<<<<< HEAD
+
 UCF Meteorology Pitch
 
 ### ChatGPT overview of Bloomberg weather indices
