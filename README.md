@@ -2,24 +2,6 @@
 
 UCF Meteorology Pitch
 
-### ChatGPT overview of Bloomberg weather indices
+### Description of Bloomberg weaather data
 
-Yes, Bloomberg provides various weather-related indices and data sets that can be used to track weather expectations. One example is the Bloomberg Commodity Weather Index (BCWI), which is designed to measure the impact of weather on commodity markets.
-
-The BCWI consists of five sub-indices that track different weather patterns in different regions of the world: North America, Europe, Brazil, Russia, and India. Each sub-index measures the deviation of actual weather conditions from historical averages and is weighted according to the commodity production and consumption patterns in that region.
-
-To access the BCWI, you can use the Bloomberg terminal and type "BCWI" followed by the appropriate index code. For example, "BCWINA Index" for the North America sub-index, "BCWIEU Index" for Europe, and so on.
-
-It's worth noting that there are also other weather-related indices and data sets available on Bloomberg, including climate data and forecasts, as well as data on natural disasters and their impact on various markets. The specific data sets and indices that are available may depend on your Bloomberg subscription and access level.
-
-Bloomberg does provide weather forecast data that can be used to track predictions for specific time periods and locations. This data can be accessed through the Bloomberg terminal by typing in the appropriate weather code, which varies depending on the specific weather data set you're interested in.
-
-For example, to access weather forecasts for a specific location, you can use the Bloomberg weather code "WECO" followed by the city and country code. For example, "WECO NY US" for weather forecasts for New York City, United States.
-
-To access weather forecasts for a specific time period, you can use the Bloomberg weather code "WFCO" followed by the start and end date in YYMMDD format. For example, "WFCO 221201 230331" for weather forecasts for the period of December 1, 2022, to March 31, 2023.
-
-It's worth noting that the availability and accuracy of weather forecast data can vary depending on a variety of factors, including the location, the time period, and the source of the data.
-=======
-Contains data on March April 2023 natural gas spread
-
->>>>>>> 0f922af1dca77bc8f36086a664e2dd9db78e7c9c
+The last four characters in the ticker is the weather location identifier. In some cases this four character code is the ICAO code for that particular location. The tail brings in a particular type of weather data such as ACTU for Actual. Please see OTHER WEATHER DATA section for all your tail options. The last 6 digits listed behind the Weather Description name as seen in DES is the Universal WMO code for that location. NOTE: All US locations use Fahrenheit; All Non-US locations use Celsius; ACTU represents actual observed weather conditions; NORMAL & MEDIAN contain 3 types (30 YEAR, 10 YEAR, 5 YEAR) These are calculated using a 30, 10 & 5 year rolling averages of daily records with updates issued in mid-March of every year; Normalized Weather data is update approximately mid-March with either a 30, 10 or 5 year rolling average. For example, March 15, 2007 will include the 5 Year Average of 2002-2006 and the 10 Year Average will include 1997-2006. PRECIPITATION includes rainfall and the liquid equivalent of snow and sleet (MEASUREMENT: Integer in 100th millimeters (Non-US) & Integer in 100th inches (US)/0 used for TRACE AMOUNTS; -1 used for NO PRECIPITATION); WIND SPEED is the average sustained winds which does not include wind gust; FORECAST is a 15 DAY forecast reported in 24 hour increments; 48 HOUR FORECASTs are as follows: MORNING refers to 6am-11:59am local time; AFTERNOON refers to 12pm-5:59pm local time; EVENING refers to 6pm-11:59pm local time. OVERNIGHT refers to 12am-5:59am (next day) local time; GDD is Growing Degree Day which provides an indication of agriculture growth and development relating to average temperatures (Calculation Method: GDD = AVG - X       X = 10 Degrees Celsius / 50 Degrees Fahrenheit if(GDD < 0) GDD = 0) X represents the standard baseline but there are also crop-specific value that can be used as the baseline; HDD is Heating Degree Day which provides an index of energy requirements to heat (Calculation Method: HDD = Y - AVG); CDD is Cooling Degree Day which provides an index of energy requirements to cool (Calculation Method: CDD = AVG - Y); Y = 18 Degrees Celsius / 65 Degrees Fahrenheit; AVG = Mean; if (HDD<0) then HDD = 0; if (CDD<0) then CDD = 0; To convert F to C (5/9*Temperature in Fahrenheit)-32; To convert C to F (9/5*Temperature in Celsius)+32.
