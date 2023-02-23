@@ -1,4 +1,5 @@
 # Meteorology
+<<<<<<< HEAD
 UCF Meteorology Pitch
 
 ### ChatGPT overview of Bloomberg weather indices
@@ -18,3 +19,7 @@ For example, to access weather forecasts for a specific location, you can use th
 To access weather forecasts for a specific time period, you can use the Bloomberg weather code "WFCO" followed by the start and end date in YYMMDD format. For example, "WFCO 221201 230331" for weather forecasts for the period of December 1, 2022, to March 31, 2023.
 
 It's worth noting that the availability and accuracy of weather forecast data can vary depending on a variety of factors, including the location, the time period, and the source of the data.
+=======
+Contains data on March April 2023 natural gas spread
+
+>>>>>>> 0f922af1dca77bc8f36086a664e2dd9db78e7c9c
